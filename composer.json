@@ -1,11 +1,11 @@
 {
-    "name": "phpstandard/library",
-    "description": "Skeleton to create a composer library",
+    "name": "phpstandard/emitter",
+    "description": "PSR-7 HTTP Response Emitter",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PhpStandard\\PackageNamespace\\": "src/"
+            "PhpStandard\\Emitter\\": "src/"
         }
     },
     "authors": [
@@ -37,5 +37,8 @@
         "fix": [
             "@phpcbf"
         ]
+    },
+    "require": {
+        "psr/http-message": "^1.0"
     }
 }
