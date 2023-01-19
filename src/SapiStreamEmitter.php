@@ -6,6 +6,7 @@ namespace PhpStandard\Emitter;
 
 use PhpStandard\Emitter\Exceptions\EmitterException;
 use PhpStandard\Emitter\Traits\SapiEmitterTrait;
+use PhpStandard\Http\ResponseEmitter\EmitterInterface;
 use Psr\Http\Message\ResponseInterface;
 
 use function connection_status;

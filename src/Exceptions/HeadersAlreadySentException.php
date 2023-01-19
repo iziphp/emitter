@@ -4,12 +4,14 @@ declare(strict_types=1);
 
 namespace PhpStandard\Emitter\Exceptions;
 
+use PhpStandard\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
 use Throwable;
 
 use function sprintf;
 
 /** @package PhpStandard\Emitter\Exceptions */
-class HeadersAlreadySentException extends EmitterException
+class HeadersAlreadySentException extends EmitterException implements
+    HeadersAlreadySentExceptionInterface
 {
     /**
      * @param string $headersSentFile PHP source file name where output started in
@@ -30,9 +32,7 @@ class HeadersAlreadySentException extends EmitterException
     }
 
     /**
-     * Get pHP source file name where output started in.
-     *
-     * @return  string
+     * @inheritDoc
      */
     public function getHeadersSentFile(): string
     {
@@ -40,9 +40,7 @@ class HeadersAlreadySentException extends EmitterException
     }
 
     /**
-     * Get line number in the PHP source file name where output started in
-     *
-     * @return  int
+     * @inheritDoc
      */
     public function getHeadersSentLine(): int
     {

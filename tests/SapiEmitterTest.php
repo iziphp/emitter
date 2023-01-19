@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace PhpStandard\Emitter\Tests;
 
 use Laminas\Diactoros\Response;
-use PhpStandard\Emitter\EmitterInterface;
-use PhpStandard\Emitter\Exceptions\HeadersAlreadySentException;
 use PhpStandard\Emitter\SapiEmitter;
+use PhpStandard\Http\ResponseEmitter\EmitterInterface;
+use PhpStandard\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
 use PHPUnit\Framework\TestCase;
 
 /** @package PhpStandard\Emitter\Tests */
@@ -24,7 +24,7 @@ class SapiEmitterTest extends TestCase
     /** @test */
     public function canDetectAlreadySentHeaders(): void
     {
-        $this->expectException(HeadersAlreadySentException::class);
+        $this->expectException(HeadersAlreadySentExceptionInterface::class);
 
         $response = new Response();
         $this->emitter->emit($response);
