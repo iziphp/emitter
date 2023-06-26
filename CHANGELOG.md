@@ -9,10 +9,6 @@ and this project adheres to [Semantic Versioning].
 
 - /
 
-## [2.0.0] - 2023-01-20
-
-- Use common interfaces from phpstandard/http-response-emitter library
-
 ## [1.0.0] - 2022-10-31
 
 - initial release
@@ -24,6 +20,5 @@ and this project adheres to [Semantic Versioning].
 
 <!-- Versions -->
 
-[unreleased]: https://github.com/phpstandard/library/compare/v2.0.0...HEAD
-[2.0.0]: https://github.com/phpstandard/library/releases/tag/v2.0.0
-[1.0.0]: https://github.com/phpstandard/library/releases/tag/v1.0.0
+[unreleased]: https://github.com/iziphp/emitter/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/iziphp/emitter/releases/tag/v1.0.0

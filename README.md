@@ -1,9 +1,9 @@
-# phpstandard/library
+# iziphp/library
 
 Skeleton to create a composer library
 
 ## Installation
 
 ```bash
-composer create-project phpstandard/library
+composer create-project iziphp/library
 ```

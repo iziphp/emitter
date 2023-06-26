@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Emitter\Traits;
+namespace Easy\Emitter\Traits;
 
-use PhpStandard\Emitter\Exceptions\HeadersAlreadySentException;
-use PhpStandard\Emitter\Exceptions\PreviousOutputException;
+use Easy\Emitter\Exceptions\HeadersAlreadySentException;
+use Easy\Emitter\Exceptions\PreviousOutputException;
 use Psr\Http\Message\ResponseInterface;
 
 use function headers_sent;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Emitter;
+namespace Easy\Emitter;
 
-use PhpStandard\Emitter\Exceptions\EmitterException;
+use Easy\Emitter\Exceptions\EmitterException;
 
-/** @package PhpStandard\Emitter */
+/** @package Easy\Emitter */
 class ContentRange
 {
     /**

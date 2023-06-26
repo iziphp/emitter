@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Emitter\Tests;
+namespace Easy\Emitter\Tests;
 
 use Laminas\Diactoros\Response;
-use PhpStandard\Emitter\SapiEmitter;
-use PhpStandard\Http\ResponseEmitter\EmitterInterface;
-use PhpStandard\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
+use Easy\Emitter\SapiEmitter;
+use Easy\Http\ResponseEmitter\EmitterInterface;
+use Easy\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
 use PHPUnit\Framework\TestCase;
 
-/** @package PhpStandard\Emitter\Tests */
+/** @package Easy\Emitter\Tests */
 class SapiEmitterTest extends TestCase
 {
     protected EmitterInterface $emitter;

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Emitter;
+namespace Easy\Emitter;
 
-use PhpStandard\Emitter\Traits\SapiEmitterTrait;
-use PhpStandard\Http\ResponseEmitter\EmitterInterface;
+use Easy\Emitter\Traits\SapiEmitterTrait;
+use Easy\Http\ResponseEmitter\EmitterInterface;
 use Psr\Http\Message\ResponseInterface;
 
-/** @package PhpStandard\Emitter */
+/** @package Easy\Emitter */
 class SapiEmitter implements EmitterInterface
 {
     use SapiEmitterTrait;

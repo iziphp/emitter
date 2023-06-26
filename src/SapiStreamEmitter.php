@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Emitter;
+namespace Easy\Emitter;
 
-use PhpStandard\Emitter\Exceptions\EmitterException;
-use PhpStandard\Emitter\Traits\SapiEmitterTrait;
-use PhpStandard\Http\ResponseEmitter\EmitterInterface;
+use Easy\Emitter\Exceptions\EmitterException;
+use Easy\Emitter\Traits\SapiEmitterTrait;
+use Easy\Http\ResponseEmitter\EmitterInterface;
 use Psr\Http\Message\ResponseInterface;
 
 use function connection_status;
@@ -15,7 +15,7 @@ use function preg_match;
 
 use const CONNECTION_NORMAL;
 
-/** @package PhpStandard\Emitter */
+/** @package Easy\Emitter */
 class SapiStreamEmitter implements EmitterInterface
 {
     use SapiEmitterTrait;

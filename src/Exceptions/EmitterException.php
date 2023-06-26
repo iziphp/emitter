@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Emitter\Exceptions;
+namespace Easy\Emitter\Exceptions;
 
+use Easy\Http\ResponseEmitter\Exceptions\EmitterExceptionInterface;
 use Exception;
-use PhpStandard\Http\ResponseEmitter\Exceptions\EmitterExceptionInterface;
 
-/** @package PhpStandard\Emitter\Exceptions */
+/** @package Easy\Emitter\Exceptions */
 class EmitterException extends Exception implements EmitterExceptionInterface
 {
 }

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Emitter\Exceptions;
+namespace Easy\Emitter\Exceptions;
 
-use PhpStandard\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
+use Easy\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
 use Throwable;
 
 use function sprintf;
 
-/** @package PhpStandard\Emitter\Exceptions */
+/** @package Easy\Emitter\Exceptions */
 class HeadersAlreadySentException extends EmitterException implements
     HeadersAlreadySentExceptionInterface
 {

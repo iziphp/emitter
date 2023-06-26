@@ -1,11 +1,11 @@
 {
-    "name": "phpstandard/emitter",
+    "name": "iziphp/emitter",
     "description": "PSR-7 HTTP Response Emitter",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PhpStandard\\Emitter\\": "src/"
+            "Easy\\Emitter\\": "src/"
         },
         "exclude-from-classmap": [
             "/tests/"
@@ -13,7 +13,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "PhpStandard\\Emitter\\Tests\\": "tests/"
+            "Easy\\Emitter\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -24,7 +24,7 @@
     ],
     "require": {
         "psr/http-message": "^1.0",
-        "phpstandard/http-response-emitter": "^1.0"
+        "iziphp/http-response-emitter": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",

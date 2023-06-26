@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Emitter\Exceptions;
+namespace Easy\Emitter\Exceptions;
 
-use PhpStandard\Http\ResponseEmitter\Exceptions\PreviousOutputExceptionInterface;
+use Easy\Http\ResponseEmitter\Exceptions\PreviousOutputExceptionInterface;
 
-/** @package PhpStandard\Emitter\Exceptions */
+/** @package Easy\Emitter\Exceptions */
 class PreviousOutputException extends EmitterException implements
     PreviousOutputExceptionInterface
 {
