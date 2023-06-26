@@ -23,6 +23,7 @@
         }
     ],
     "require": {
+        "php": "^8.2",
         "psr/http-message": "^1.0",
         "iziphp/http-response-emitter": "^1.0"
     },
